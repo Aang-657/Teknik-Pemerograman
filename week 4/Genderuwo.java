@@ -1,6 +1,6 @@
 // Inheritance: Genderuwo merupakan subclass dari Hantu
 // Implements Interface: Genderuwo mengimplementasikan Menakuti
-class Genderuwo extends Hantu implements Menakuti {
+class Genderuwo extends Hantu implements MenakutiBaru  {
     public Genderuwo(String nama, int kekuatan) {
         super(nama, kekuatan, "Api");
     }

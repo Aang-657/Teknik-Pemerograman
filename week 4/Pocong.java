@@ -1,6 +1,6 @@
 // Inheritance: Pocong merupakan subclass dari Hantu dan mewarisi semua atribut serta metode dari Hantu
 // Implements Interface: Pocong mengimplementasikan Menakuti sehingga harus memiliki metode menyerang()
-class Pocong extends Hantu implements Menakuti {
+class Pocong extends Hantu implements MenakutiBaru {
     public Pocong(String nama, int kekuatan) {
         super(nama, kekuatan, "Tanah");
     }

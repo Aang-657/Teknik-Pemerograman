@@ -15,12 +15,12 @@ class DuniaGaib {
             h.menghantui();
 
             // Polymorphism dengan Instanceof: Mengecek apakah objek bisa menggunakan metode dari interface tertentu
-            if (h instanceof Menakuti) {
-                ((Menakuti) h).menyerang();
+            if (h instanceof MenakutiBaru) {
+                ((MenakutiBaru) h).menyerang();
             }
 
-            if (h instanceof BisaTerbang) {
-                ((BisaTerbang) h).terbang();
+            if (h instanceof BisaTerbangBaru) {
+                ((BisaTerbangBaru) h).terbang();
             }
 
             System.out.println();

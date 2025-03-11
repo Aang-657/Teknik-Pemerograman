@@ -1,9 +1,9 @@
 // Interface: Menakuti harus diimplementasikan oleh kelas yang ingin memiliki kemampuan menyerang
-interface Menakuti {
+interface MenakutiBaru{
     void menyerang();
 }
 
 // Interface: BisaTerbang harus diimplementasikan oleh kelas yang ingin memiliki kemampuan terbang
-interface BisaTerbang {
+interface BisaTerbangBaru{
     void terbang();
 }

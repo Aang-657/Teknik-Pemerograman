@@ -1,6 +1,6 @@
 // Inheritance: Kuntilanak merupakan subclass dari Hantu
 // Implements Multiple Interfaces: Kuntilanak mengimplementasikan Menakuti dan BisaTerbang
-class Kuntilanak extends Hantu implements BisaTerbang, Menakuti {
+class Kuntilanak extends Hantu implements BisaTerbangBaru, MenakutiBaru {
     public Kuntilanak(String nama, int kekuatan) {
         super(nama, kekuatan, "Angin");
     }
